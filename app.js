@@ -1,5 +1,6 @@
-const numbers = [1, 2, 3, 4];
+const val1 = String(5);
+const val2 = 6;
+const sum = Number(val1 + val2);
 
-numbers.push(5);
-
-console.log(numbers);
+console.log(sum);
+console.log(typeof sum);
